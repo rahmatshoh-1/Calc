@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    user-select: none;
+    overflow: hidden;
+}
+
+.header{
+    height: 500px;
+    margin:0 auto; 
+    width: 1003px;
+}
+.logo {
+    padding: 20px 0px 0px 100px;
+}
+header__round_shape{
+    width: 500px;
+    height: 500px;
+    border:0px;
+    border-radius: 360px;
+    float: right;
+    margin-right: -183px;
+    margin-top: -50px;
+    background-color: #76ed9f;
+}
+.offer{
+    float: left;
+    font-family: tahoma;    
+    width: 400px;
+    margin: 20px 0px 0px 100px;
+}
+.offer__paragraph{
+    padding: 20px 0px 30px 0px;
+
+}
+.btn{
+    outline: none;
+    color:#000;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    display: block;
+    border-radius: 360px;
+    text-align: center;
+    text-decoration: none;
+    width: 220px;
+    padding: 5px;
+    background-color: orange;
+}
+.offer__img{
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-top: -50px;
+}
+.img{
+    position: absolute;
+    width: 160px;
+    height: 324px;
+    background: url('../img/Untitled-1.png') no-repeat;
+    background-size: cover;
+    
+}
+.block__calc{
+    position: absolute;
+    background: white;
+    width: 144px;
+    height: 258px;
+    left: 0;
+    right: 0;
+    margin:auto;
+    margin-top: 18px;
+}
+.block__calc__form{
+    width: 144px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+.block__calc__numbers_btn{
+    height: 198px;
+    width: 145px;
+    position: absolute;
+    background: #000;
+    overflow: hidden;
+}
+.btn_calc_number{
+    float: left;
+    margin:3px; 
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    background: #323232;
+    color: #fff;
+    margin-top: 6px;
+    border-radius: 360px;
+}
+.main_btn{
+    background-color: orange;
+}
+.zero{
+    width: 65px;
+    text-align: left;
+    padding-left: 10px;
+}
+.need_btn{
+    background-color: #ccc;
+}
+
+.btn_calc_number:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.container{
+    position: absolute;
+    width: 1003px;
+    left:0;
+    right: 0;
+    margin:auto;
+}
+#clean{
+    width: 102px;
+    color: #000;
+    font-weight: bold;
+}
