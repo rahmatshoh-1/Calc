@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/mediaquary.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="header__round_shape"></div>
-    <div class="header">
-     <div class="container-top">
-        <img src="img/logo.png" class="logo"alt="">
-    </div>
-    <div class="container">            
-        <div class="offer">
-                <h1>Smart comfortable <br>Ux & UI </h1>
-                <p class="offer__paragraph">
-                    Calvculator fast & easy 
-                    The following keys are common to most pocket calculators. While the arrangement of the digits is standard, the positions of other keys vary from model to model; the illustration is an example.
-                </p>
-                <a href="#" class="btn">More</a>
+    <nav>
+        <div class="logo">
+            <div class="container">
+                <img src="img/logo.png" alt="Logo">    
             </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="left_block">
+            <div class="offer">
+                <h1>Smart and Simple<br> Ux & UI Calculator</h1>
+                <p>
+                    Calvculator fast & easy it’s time to calc  use<br> a regular calculator that is similar to the calculator <br> of your devices
+                </p>
+                <div class="btns">
+                    <a href="#" class="btn__active">Time to calc</a>
+                    <a href="#" class="btn__more">More</a>
+                </div>
+            </div>
+        </div>  
+        <div class="right_block">
+            <div class="right__block_bg"></div>
             <div class="offer__img">
                 <div class="img">
                     <div class="block__calc">
                         <form name="form">
-                        <input type="text" class="block__calc__form" name="textview" maxlength="9">
+                        <input type="text" class="block__calc__form" name="textview" maxlength="10">
                          </form>
                         <div class="block__calc__numbers_btn">
 
@@ -61,10 +69,11 @@
                     </div>
                 </div>
             </div>
-            </div>  
-            
         </div>
     </div>
+    <footer>
+        <p>COPY RIGHT 2020</p>
+    </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
